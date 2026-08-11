@@ -1,0 +1,28 @@
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2YTU0ZWQyZjg1Yjg4NDliNDllNWE2NTMiLCJ1c2VyRW1haWwiOiJrYW1yYS5rQGdtYWlsLmNvbSIsInVzZXJNb2JpbGUiOjk4NzY1NDMyMTAsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3ODYxMTMxMzQsImV4cCI6MTgxNzY3MDczNH0.ZjKDf5K-LZl2U1ebUbFQBKhX7ipa9qlb7mj3YH6q2ZU
+{
+  orders: [ '6a75ec6e85b8849b4935ce3c' ],
+  productOrderId: [ '6960eae1c941646b7a8b3ed3' ],
+  message: 'Order Placed Successfully'
+}
+APIResponse: 201 Created
+  Date: Fri, 07 Aug 2026 14:32:14 GMT
+  Server: Apache/2.4.52 (Ubuntu)
+  Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+  X-DNS-Prefetch-Control: off
+  Expect-CT: max-age=0
+  X-Frame-Options: SAMEORIGIN
+  Strict-Transport-Security: max-age=15552000; includeSubDomains
+  X-Download-Options: noopen
+  X-Content-Type-Options: nosniff
+  X-Permitted-Cross-Domain-Policies: none
+  Referrer-Policy: no-referrer
+  X-XSS-Protection: 0
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+  Content-Length: 123
+  ETag: W/"7b-1osa2514ueFUKJqycY4xRxsNzfs"
+  Vary: Accept-Encoding
+  Keep-Alive: timeout=5, max=99
+  Connection: Keep-Alive
+6a75ec6e85b8849b4935ce3c
+[ 'Automation Practice' ]

@@ -1,0 +1,3 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","9650","@API Security Test Request Intercept","","2026-08-07","passed","2026-08-07","","NetworkTest2.spec.js","",""
+"","7053","@API Network Response Test","","2026-08-07","passed","2026-08-07","","NetworkTest.spec.js","",""
