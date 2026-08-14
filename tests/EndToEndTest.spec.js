@@ -124,6 +124,6 @@ test('End To End Test', async ({browser}) =>
 
     expect(orderId.includes(orderIdDetails)).toBeTruthy();
     await page.pause();
-});
+}); 
 
 //E2E Test is a type of software testing that validates the entire application flow from start to finish. It simulates real user scenarios and ensures that all integrated components of the application work together as expected. The goal of E2E testing is to identify any issues or bugs in the system before it goes live, ensuring a smooth user experience.
