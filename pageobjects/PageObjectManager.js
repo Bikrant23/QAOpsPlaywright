@@ -2,7 +2,8 @@ const {LoginPage} = require('../pageobjects/loginPage');
 const DashboardPage = require('../pageobjects/DashboardPage');
 const CartPage = require('../pageobjects/CartPage');
 const CheckoutPage = require('../pageobjects/CheckoutPage');
-const MyOrderPage = require('../pageobjects/MyOrderPage')
+const MyOrderPage = require('../pageobjects/MyOrderPage');
+const LoginPagePractisePage = require('../pageobjects/LoginPagePractisePage');
 
 
 class PageObjectManager {
@@ -16,6 +17,7 @@ class PageObjectManager {
     this.cartPage = new CartPage(this.page);
     this.checkoutPage = new CheckoutPage(this.page);
     this.myOrderPage = new MyOrderPage(this.page);
+    this.loginPagePractisePage = new LoginPagePractisePage(this.page);
 
   }
 
@@ -37,6 +39,10 @@ class PageObjectManager {
 
   getMyOrderPage(){
     return this.myOrderPage;
+  }
+
+  getLoginPagePractisePage(){
+    return this.loginPagePractisePage;
   }
 }
 

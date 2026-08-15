@@ -5,6 +5,25 @@ class APIUtils{
         this.apiContext = apiContext; //Assigning to Local Class API Context
         this.loginPayLoad = loginPayLoad;
     }
+
+    async httpGetCall(url, headers = {}, queryParams = {}) {
+        const requestUrl = new URL(url);
+
+        Object.keys(queryParams).forEach((key) => {
+            requestUrl.searchParams.append(key, queryParams[key]);
+        });
+
+        const response = await this.apiContext.get(requestUrl.toString(), {
+            headers: headers,
+        });
+
+        if (!response.ok()) {
+            throw new Error(`GET request failed with status ${response.status()}`);
+        }
+
+        const responseJson = await response.json();
+        return responseJson;
+    }
      
     async getToken(){
         const loginResponse = await this.apiContext.post("https://rahulshettyacademy.com/api/ecom/auth/login",{
