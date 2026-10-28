@@ -8,7 +8,7 @@ class LoginPagePractisePage {
     this.username = page.locator("input[name='username']");
     this.password = page.locator("input[name='password']");
     this.checkbox = page.locator("input[type='checkbox']");
-    this.signInButton = page.locator("button:has-text('Sign In')");
+    this.signInButton = page.locator("input[value='Sign In']");
     this.productCards = page.locator('.card');
     this.iphoneXProduct = page.locator('.card').filter({ hasText: 'iphone X' });
   }

@@ -11,7 +11,7 @@ for(const data of dataset){
   //Parameterization of the test case using the data from the JSON file
   test(`End To End Page Object Implementation for ${data.productName}`, async ({page}) => {
     const cvv = "123";
-    const name = "Kunam Kamra";
+    const name = "Kunal Kamra";
     const coupon = "rahulshettyacademy";
     const countryCode = "ind";
     const countryName = "India";   
@@ -47,7 +47,7 @@ for(const data of dataset){
 customtest(`@Web End To End Page Object Implementation`, async ({page, testDataForOrder}) => {
 
     const cvv = "123";
-    const name = "Kunam Kamra";
+    const name = "Kunal Kamra";
     const coupon = "rahulshettyacademy";
     const countryCode = "ind";
     const countryName = "India";   
