@@ -25,3 +25,13 @@ class CartPage {
 }
 
 module.exports = CartPage;
+
+// Perform below steps manually fiest on browser to understand the flow and grab the real locatos, and then frame a playwright test as per existing frameworkpageobject standards. Create the test file in rahulshettyacademy.test package path
+
+// Navigate to https://rahulshettyacademy.com/loginpagePractise/
+// Enter the Username as "rahulshettyacadmy" and password as "Learning@830$3mK2"
+// Select the Checkbox
+// Click Sign In Button
+
+// Wait until page is navigate to  https://rahulshettyacademy.com/angularpractice/shop page
+// Verofy if Iphone X product is present on the page.

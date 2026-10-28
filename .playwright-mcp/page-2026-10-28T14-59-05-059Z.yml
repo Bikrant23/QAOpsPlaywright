@@ -1,0 +1,40 @@
+- generic [ref=f1e1]:
+  - generic [ref=f1e2]:
+    - link "Free Access to InterviewQues/ResumeAssistance/Material" [ref=f1e3] [cursor=pointer]:
+      - /url: https://rahulshettyacademy.com/documents-request
+    - link "🎯 I'll help you prepare for your next QA job — Explore the QA Career Accelerator." [ref=f1e4] [cursor=pointer]:
+      - /url: https://rahulshettyacademy.com/qa-career-accelerator-job-ready
+  - generic [ref=f1e5]:
+    - heading [level=3] [ref=f1e6]
+    - generic [ref=f1e14]:
+      - generic [ref=f1e15]:
+        - generic [ref=f1e16]: "Username:"
+        - textbox "Username:" [ref=f1e17]: rahulshettyacademy
+      - generic [ref=f1e18]:
+        - generic [ref=f1e19]: "Password:"
+        - textbox "Password:" [ref=f1e20]: Learning@830$3mK2
+      - generic [ref=f1e22]:
+        - generic [ref=f1e23] [cursor=pointer]:
+          - text: Admin
+          - radio "Admin" [checked] [ref=f1e24]
+        - generic [ref=f1e26] [cursor=pointer]:
+          - text: User
+          - radio "User" [ref=f1e27]
+      - combobox [ref=f1e30]:
+        - option "Student" [selected]
+        - option "Teacher"
+        - option "Consultant"
+      - generic [ref=f1e31]:
+        - generic [ref=f1e32]:
+          - checkbox "I Agree to the terms and conditions" [checked] [ref=f1e34]
+          - generic [ref=f1e35]:
+            - text: I Agree to the
+            - link "terms and conditions" [ref=f1e36] [cursor=pointer]:
+              - /url: "#"
+        - button "Signing .." [active] [ref=f1e42] [cursor=pointer]
+      - paragraph [ref=f1e39]:
+        - text: (username is
+        - generic [ref=f1e40]: rahulshettyacademy
+        - text: and Password is
+        - generic [ref=f1e41]: Learning@830$3mK2
+        - text: )

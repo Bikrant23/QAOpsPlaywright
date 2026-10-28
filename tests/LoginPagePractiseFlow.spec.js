@@ -6,9 +6,8 @@ test('@web LoginPage Practise flow navigates to shop and shows iPhone X', async 
   const loginPagePractisePage = pageObjectManager.getLoginPagePractisePage();
 
   await loginPagePractisePage.gotoLoginPage();
-  await loginPagePractisePage.login('rahulshettyacademy', 'learning');
+  await loginPagePractisePage.login('rahulshettyacademy', 'Learning@830$3mK2');
   await loginPagePractisePage.verifyIphoneXProduct();
 
   await expect(page).toHaveURL('https://rahulshettyacademy.com/angularpractice/shop');
-  await expect(page.locator('.card')).toContainText('iphone X');
 });
